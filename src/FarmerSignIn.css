@@ -1,0 +1,75 @@
+/* Core form styles */
+.signup-form {
+  max-width: 100%;
+  margin: 3rem auto;
+  padding: 2rem;
+  
+  border-radius: 10px;
+  background-color:  linear-gradient(135deg, #e0f7f1, #81c784); ;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  font-family: sans-serif;
+}
+
+/* Form heading */
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+/* Group layout */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Input fields */
+.form-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus states */
+.form-group input:focus {
+  border-color: #2a7f62;
+  box-shadow: 0 0 6px rgba(42, 127, 98, 0.3);
+  outline: none;
+}
+
+/* Submit button */
+.submit-btn {
+  width: 100%;
+  padding: 0.9rem;
+  background-color: #2a7f62;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+/* Hover effect for button */
+.submit-btn:hover {
+  background-color: #246a52;
+  transform: translateY(-2px);
+}
+
+/* Responsive adjustment */
+@media (max-width: 480px) {
+  .farmer-form {
+    margin: 2rem 1rem;
+    padding: 1.5rem;
+  }
+}

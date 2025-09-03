@@ -1,0 +1,52 @@
+.hero-full {
+  width: 100%;
+  background: linear-gradient(135deg, #e0f7f1, #81c784);
+  padding: 4rem 0;
+  text-align: center;
+}
+/* Container for the text */
+
+/* Container for the text */
+.hero-container {
+  max-width: 800px;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  color: #235a40;
+}
+
+/* Styling for the heading */
+.hero-container h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(30) forwards;
+}
+
+/* Styling for the paragraph */
+.hero-container p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeIn 2s 4s forwards;
+}
+
+/* Keyframes for typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Keyframes for fading in the paragraph */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,45 @@
+.quests-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: stretch; /* Ensures all cards match the height of the tallest sibling */
+}
+
+.quest-card {
+ background: linear-gradient(135deg, #e0f7f1, #81c784);
+  padding: 1.2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  flex: 1 1 220px; /* Flexibly grows/shrinks with a base width */
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+}
+
+.quest-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.quest-title {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color:#2a7f62 ;
+}
+
+.quest-desc,
+.quest-reward,
+.quest-impact {
+  margin: 0.25rem 0;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
