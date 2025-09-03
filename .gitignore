@@ -22,3 +22,50 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# ----------------------
+# Node / React
+# ----------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.cache/
+*.log
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# IDEs
+# ----------------------
+.vscode/
+.idea/
+
+# ----------------------
+# Other
+# ----------------------
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+*.orig
